@@ -24,8 +24,10 @@ const FileUpload = () => {
     setIsUploading(true);
     const formData = new FormData();
     formData.append('resume', file);
+    const api=import.meta.env.VITE_API_URL;
+    if(!api)return;
     try {
-      const response = await axios.post('http://localhost:3000/resume/uploadResume', formData, {
+      const response = await axios.post(`${api}/resume/uploadResume`, formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
