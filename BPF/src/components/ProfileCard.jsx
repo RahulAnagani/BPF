@@ -3,11 +3,11 @@ import './ProfileCard.css';
 
 const ProfileCard = () => {
   return (
-    <div className="card">
+    <div className="card dark:bg-gray-500!">
       <div className="card-photo"></div>
-      <div className="card-title ">
+      <div className="card-title dark:text-white! font-bold!">
         ANAGANI RAHUL <br />
-        <span className="text-sm text-gray-500">
+        <span className="text-sm  text-gray-500 font-normal! dark:text-white!">
   Build fast, think deeply, design beautifully.
 </span>
       </div>

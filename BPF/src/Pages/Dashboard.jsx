@@ -231,8 +231,8 @@ import FileUpload from '../components/File'
             title="BookSwap"
             description="BookSwap is a platform for book lovers to exchange books with others in their local area. Users can list books they want to swap, browse available books, and connect with others to arrange swaps. With features like ratings, genres, and chat, it fosters a community of readers."
             image="./bs.png"
-            liveLink="https://rahulanagani.github.io/BookSwap-React/"
-            githubLink="https://github.com/RahulAnagani/BookSwap-React"
+            liveLink="https://rahulanagani.github.io/BookSwap/"
+            githubLink="https://github.com/RahulAnagani/BookSwap"
             completionDate="2025"
             tags={["React", "Express", "OpenBookLibrary", "TailwindCss", "Socket.io"]}
           />

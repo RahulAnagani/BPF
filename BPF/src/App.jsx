@@ -4,7 +4,7 @@ import Dashboard from './Pages/Dashboard'
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/BPF">
         <Routes>
           <Route path='/' element={<Dashboard></Dashboard>}></Route>
         </Routes>
